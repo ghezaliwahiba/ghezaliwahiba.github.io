@@ -1,0 +1,70 @@
+/* Section Fonctionnement page d'acueil*/
+
+.Operation{
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  
+  .operation__etape li{
+    width: 40%;
+  }
+  .operation__etape ul{
+    display: flex;
+    
+  }
+}
+
+.operation__etape li{
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px;
+  margin: 15px 20px 15px 30px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  background-color: #f5f5f5;
+}
+
+.Operation h1 {
+  padding: 20px;
+}
+
+.operation__etape__numero{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9356DC;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #9356DC;
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  margin-top: 3px;
+  margin-left: -40px;
+
+}
+
+.operation__etape ul :hover{
+  background-color: #F2E2FF;
+}
+.operation__etape__icon{
+margin-top:3px;
+margin-left: 20PX;
+}
+.operation__etape ul :hover .operation__etape__icon{
+  color:  #9356DC;
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+
+.operation__etape li p {
+  font-weight: 500;
+  margin-left: 20px;
+}

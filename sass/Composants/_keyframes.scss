@@ -1,0 +1,30 @@
+@keyframes loader {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+  
+@keyframes back {
+  0% {
+    transform: rotate(0deg) translateY(-200%);
+  }
+  60%,
+  100% {
+    transform: rotate(360deg) translateY(-200%);
+  }
+}
+
+@keyframes apparition
+{
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,282 @@
+/*section restaurant page d'acueil*/
+
+@media (min-width: 992px) { 
+
+  .sect__resto{
+    display: flex;
+    flex-direction: row;
+  } 
+  .carte{
+width: 40%;
+  }
+    
+}
+
+
+.resto{
+background-color: #F2F2F2;
+display: flex;
+flex-direction: column;
+
+}
+
+.resto__titre{
+  margin-left: 15px;
+  padding: 30px 0px 0px 10px;
+}
+
+.new {
+  color: #008766;
+  background: #99E2D0;
+  border: 5px solid #99E2D0;
+  border-radius: 5px;
+  position: absolute;
+  right: 1%;
+  top: 5%;
+  
+}
+
+
+.btn__carte{
+
+  margin-left: -70px;
+}
+
+
+.carte{
+  border-radius: 25px;
+  box-shadow: 4px 4px 6px #aaa;
+  margin: 20px;
+  position: relative;
+  background: #fff;
+}
+
+
+
+.Figure{
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 100%;
+ height: 250px;  
+  }
+  
+
+.carte img{
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 70%; 
+  
+}
+
+.fill__coeur{
+  display:flex;
+  justify-content :space-between;
+  color: #000;
+}
+
+.fill__coeur .fill {
+  font-size: 2rem;
+  padding: 5px;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.fill__coeur .fill:hover {
+  font-weight: bold;
+  background: linear-gradient(#FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: transparent;
+  transform: scale(1.3);
+  transition: all 400ms ease-in-out;
+
+}
+
+.coeur{
+  padding-left: 10px;
+  width: 100%;
+  height: 30%;
+}
+
+.coeur span{
+  padding-right: 10px;
+}
+
+.coeur h4{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Figure p{
+  margin-top: 0px;
+}
+
+    
+ /*section restaurant pages*/
+ 
+ @media (min-width: 992px) {
+  .repas{
+    width: 100%;
+   } 
+  .entier__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+  }
+  .entré{
+    width: 25%;
+  }
+  
+  .principal{
+    width: 25%;
+  }
+  .dessert{
+    width: 25%;
+  }
+}
+
+
+.menu{
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+}
+
+.image img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+
+.menu__titre{
+    font-family: Shrikhand, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+/*.....entrées......*/
+
+.entré h3{
+    margin-bottom: 5px;
+}
+
+.entré__title{
+width: 40px;
+  border-bottom: 2px solid #99E2D0;
+ margin-left: 10px;
+}
+
+
+.repas{
+ 
+ margin-left: 20px;
+margin: 10px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 6px #aaa;
+    transform: scale(0);
+    animation: apparition 3s forwards; 
+}
+
+
+.repas__ligne {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.prix{
+    display: flex;
+    flex-direction: row;
+    height: 80px;    
+}
+
+.prix span{
+  padding-top: 20px;
+}
+
+.fa-circle-check{  
+font-size: xx-large;
+margin-bottom: 15px;
+}
+
+.check{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: white;
+   background-color:  #99E2D0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    height: 100%;
+   border-radius: 0 15px 15px 0;
+   margin-top: -29px;
+   margin-right: -10px;
+   margin-left: 20px;
+   opacity: 0;
+   transition-duration: 800ms;
+   animation: appar 3s forwards; 
+}
+
+.repas:hover .fa-circle-check {
+  transform: rotate(360deg);
+  transition: 500ms;
+ }
+        
+.repas:hover .check {
+ opacity: 1;
+ width: 100px;
+}
+
+.repas P{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.repas h4{
+ width: 100%;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+/*......plats.....*/
+
+.principal__titre{
+  width: 40px;
+  border-bottom: 2px solid #99E2D0;
+  margin-left: 10px;
+
+}
+
+.principal h3{
+    margin-bottom: 5px;
+}
+
+/*.....desserts.......*/
+
+.dessert__titre{
+  width: 40px;
+  border-bottom: 2px solid #99E2D0;
+  margin-left: 10px;
+}
+
+.dessert h3 {
+  margin-bottom: 5px;
+}

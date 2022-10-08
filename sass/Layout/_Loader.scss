@@ -11,15 +11,6 @@
   animation: loader 3s forwards;
 }
 
-@keyframes loader {
-  0% {
-    visibility: visible;
-  }
-  100% {
-    visibility: hidden;
-  }
-}
-
 .load {
   border: 10px solid #f3f3f3;
   border-top: 10px solid #9356dc;
@@ -33,14 +24,4 @@
   right: 0;
   top: 0;
   animation: back 1.5s infinite;
-}
-
-@keyframes back {
-  0% {
-    transform: rotate(0deg) translateY(-200%);
-  }
-  60%,
-  100% {
-    transform: rotate(360deg) translateY(-200%);
-  }
 }

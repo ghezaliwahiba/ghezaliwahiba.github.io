@@ -189,17 +189,6 @@ margin: 10px;
     animation: apparition 3s forwards; 
 }
 
-@keyframes apparition
-{
-    0%{
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
 
 .repas__ligne {
     display: flex;

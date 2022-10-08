@@ -1,0 +1,46 @@
+/*loader*/
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: #ff79d93c;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+  animation: loader 3s forwards;
+}
+
+@keyframes loader {
+  0% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+.load {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #9356dc;
+  border-bottom: 10px solid #ff79da;
+  border-radius: 45%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  animation: back 1.5s infinite;
+}
+
+@keyframes back {
+  0% {
+    transform: rotate(0deg) translateY(-200%);
+  }
+  60%,
+  100% {
+    transform: rotate(360deg) translateY(-200%);
+  }
+}

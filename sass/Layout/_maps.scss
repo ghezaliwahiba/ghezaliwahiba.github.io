@@ -1,0 +1,44 @@
+/* Section menu*/   
+
+.cité{
+    display: flex;
+    flex-direction: column;
+  background-color: #eaeaea;
+  
+  }
+  .maps__search input{
+      border: none;
+      background: #eaeaea;
+      font-size: 1rem;
+      padding: 20px 5px 20px 5px;
+      margin-top: 5px;
+      width: 150px;
+      
+      text-align: center;
+      
+  }
+  
+  
+  .maps__cité{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  }
+  
+  .fa-map-marker-alt{
+  padding-top:25px;
+  padding-right:10px;}
+  
+  .about {
+      background: #f6f6f6;
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      padding: 40px 0;
+  }
+  
+  

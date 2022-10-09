@@ -495,7 +495,7 @@ footer ul .fa-hands-helping {
 /* btn acueil*/
 .btn__cité {
   width: 50%;
-  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   border: 1px solid transparent;
   border-radius: 30px;
   padding: 5px 5px;
@@ -518,7 +518,7 @@ footer ul .fa-hands-helping {
 
 /*btn_commande pages*/
 .btn__commande button {
-  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  background-image: linear-gradient(#FF79DA, #9356DC);
   border: 1px solid transparent;
   border-radius: 30px;
   padding: 10px 5px;
